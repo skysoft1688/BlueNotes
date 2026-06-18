@@ -1,8 +1,8 @@
 # BlueNotes
-一个C#编写的简单易用、功能单一的桌面便签小软件。  
+一个C#编写的简单易用、功能单一的桌面便签小软件。使用Visual Studio 2026编译通过。  
 软件本身不大，但是依赖微软运行时库：windowsdesktop-runtime-8.0.28-win-x64.exe 下载地址为：
 https://aka.ms/dotnet-core-applaunch?missing_runtime=true&arch=x64&rid=win-x64&os=win10&apphost_version=8.0.28&gui=true  
-为此还打包了一个独立运行的包，体积就比较大了。  
+若要打包为一个独立运行的包，体积约为150M。
 软件功能：
 1. 不用安装，解压后直接运行 BlueNotes.exe，因为设置了开机自动运行，360杀毒软件可能会报警，点击确认即可。开机运行功能可以在软件中关闭。  
 2. 软件界面分为3个部分：  
